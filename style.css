@@ -1,0 +1,146 @@
+header{
+    background-color: burlywood;
+    height: 400px;
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(https://skin.ru/storage/articles/333200/conversions/N6VxgNeX4HqS3GX1y0MvovyKfC73ZnDuZy1D84RJ-preview_3_2.jpg);
+    background-size: cover;
+    background-position:top ;
+    background-position-y:-100px ;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: black ; 
+}
+main{
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content:center ;
+}
+footer{
+    background-color: darkred;
+    height: 100%;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+
+}
+.left{
+    background-color: rgb(165, 42, 42);
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background: radial-gradient(orange,brown);
+}
+.right{
+    background-color: burlywood;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding:10px;
+    text-align: center;
+    background: radial-gradient(orange,brown);
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+body{
+    margin: 0;
+    background: radial-gradient(yellow,red);
+}
+.f_left{
+    width:20% ;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+    padding: 20px;
+    width: 40%;
+}
+.f_right{
+    width: 80%;
+    float: right;
+}
+.f_right img{
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float:left
+}
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+form{
+    width: 350px;
+    float: right;
+    display: flex;
+
+}
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+.button{
+    width: 25%;
+    background-color: darksalmon;
+    color: aliceblue;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
+
